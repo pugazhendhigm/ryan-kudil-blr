@@ -53,7 +53,7 @@ export default function HomePage() {
       <header className={`site-nav ${isScrolled ? 'site-nav--scrolled' : ''}`}>
         <a className="nav-mark" href="#top" aria-label="Ryan's Kudil home">
           <span className="mark-icon"><Home size={15} strokeWidth={1.5} /></span>
-          <span>Ryan&apos;s Kudil</span>
+          <span className="nav-name">Ryan&apos;s Kudil</span>
         </a>
         <a className="nav-link" href="#details">The Details <ArrowDown size={14} /></a>
       </header>
@@ -79,11 +79,6 @@ export default function HomePage() {
             <span>Ryan&apos;s Kudil</span>
             <span className="ornament ornament--right">❧</span>
           </div>
-          <div className="hero-family reveal-up reveal-delay-4">
-            <span><UsersRound size={15} /> Saravanan &amp; Kamatchi</span>
-            <i />
-            <span><UserRound size={15} /> Ryan</span>
-          </div>
           <a className="scroll-cue reveal-up reveal-delay-4" href="#welcome">
             <span>Scroll to explore</span>
             <ChevronDown size={18} strokeWidth={1.5} />
@@ -102,7 +97,6 @@ export default function HomePage() {
           <p className="welcome-copy">As we open the doors to our new home, we invite you to share in our joy and bless this beautiful beginning.</p>
           <div className="family-feature">
             <div className="family-feature-heading">
-              <span className="family-feature-number">01</span>
               <div>
                 <span className="family-feature-kicker">The family behind the home</span>
                 <span className="family-feature-note">A house made beautiful by love</span>
@@ -116,7 +110,6 @@ export default function HomePage() {
                 <strong>Saravanan <b>&amp;</b> Kamatchi</strong>
                 <small>With the blessings of our elders</small>
               </div>
-              <span className="family-profile-mark">01</span>
             </div>
             <div className="family-connector"><span /> <Heart size={15} fill="currentColor" /> <span /></div>
             <div className="family-profile family-profile--son">
@@ -126,7 +119,6 @@ export default function HomePage() {
                 <strong>Ryan</strong>
                 <small>The heart of Ryan&apos;s Kudil</small>
               </div>
-              <span className="family-profile-mark">02</span>
             </div>
           </div>
         </div>
