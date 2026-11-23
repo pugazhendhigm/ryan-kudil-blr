@@ -85,7 +85,7 @@ export default function HomePage() {
           </a>
         </div>
         <div className="hero-stem hero-stem--left" />
-        <div className="hero-stem hero-stem--right" />
+        <div className="hero-stem hero-stem--right" /> 
       </section>
 
       <section className="welcome-section" id="welcome">
